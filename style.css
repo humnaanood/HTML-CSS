@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+nav{
+    background-color: orchid;
+    height: 70px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 70px;
+    padding:20px;
+
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul a{
+    display: inline-block;
+    line-height: 50px;
+    padding: 5px;
+}
+
+.a.Active,a:hover{
+    transition: .5s;
+    background: rgb(74, 8, 74);
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    /* padding: 5px ; */
+    border-radius: 3px;
+}
