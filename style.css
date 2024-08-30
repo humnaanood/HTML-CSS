@@ -1,43 +1,26 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-body{
-    font-family: Arial, sans-serif;
-}
 nav{
-    background-color: orchid;
+    background-color: rgb(245, 50, 6);
     height: 70px;
     width: 100%;
+    
 }
-label.logo{
+#lab1{
+   
     color: white;
+    font-style:oblique;
+    text-decoration:underline;
     font-size: 30px;
     font-weight: 600;
     line-height: 70px;
-    padding:20px;
-
+    padding:20px
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    padding: 5px;
+    color: white;
 }
 nav ul{
     float: right;
     margin-right: 20px;
-}
-nav ul a{
-    display: inline-block;
-    line-height: 50px;
-    padding: 5px;
-}
-
-.a.Active,a:hover{
-    transition: .5s;
-    background: rgb(74, 8, 74);
-    cursor: pointer;
-    color: white;
-    font-size: 14px;
-    text-transform: uppercase;
-    /* padding: 5px ; */
-    border-radius: 3px;
 }
